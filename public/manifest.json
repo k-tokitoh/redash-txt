@@ -1,0 +1,14 @@
+{
+  "name": "redash-txt",
+  "manifest_version": 2,
+  "version": "1.0",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
